@@ -1,5 +1,5 @@
 //Funcao para printar os cadastros realizados
-function enviar() {
+function submit() {
     var nome = document.querySelector("#name").value;
     var career = document.querySelector("#career").value;
     var age = document.querySelector("#age").value;
