@@ -11,7 +11,7 @@
 
 <body>
     <div id="form">
-        <form action="">
+        <form action="javascript: enviar();">
             <h2 class="tittle">Cadastro Detran <i class="fa-solid fa-car"></i></h2>
             <div class="container">
                 <label>Nome</label>
@@ -23,13 +23,13 @@
                 <label>Idade</label>
                 <div class="content">
                     <i class="fa-regular fa-calendar-days"></i>
-                    <input id="idade" placeholder="Idade" type="text">
+                    <input id="age" placeholder="Idade" type="text">
                 </div>
 
                 <label>Profissão</label>
                 <div class="content">
                     <i class="fa-solid fa-briefcase"></i>
-                    <input id="profissao" placeholder="Profissão" type="text">
+                    <input id="career" placeholder="Profissão" type="text">
                 </div>
 
                 <label>Email</label>
@@ -52,14 +52,20 @@
 
             </div>
             <div id="btn">
-                <button type="submit"> Cadastrar</button>
+                <button type="submit" value="Enviar" > Cadastrar</button>
             </div>
         </form>
 
     </div>
 
+    <table>
+        <tbody id="tabela">
+
+        </tbody>
+    </table>
+
     <!-- Scrips -->
     <script src="https://kit.fontawesome.com/9bab1c5ab9.js" crossorigin="anonymous"></script>
-</body>
-
+    <script src="scripts/exibir.js"></script>
+ 
 </html>

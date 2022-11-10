@@ -26,6 +26,8 @@ body {
     padding: 60px;
     color: #2b344b;
     pointer-events: all;
+    margin-bottom: 15px;
+    margin-left: 15px;
 
 }
 
@@ -87,15 +89,30 @@ body {
 
 .content input {
     font-family: 'Fira Sans Condensed', sans-serif;
-    width: 80px;
+    width: 150px;
     border: none;
     transform: translateY(-10%);
     outline: none;
     color: #2b344b;
 }
+table{
+    padding: 10px;
+    top: 20px;
+    position: relative;
+}
+
+td{
+    margin-left: 10px;
+    margin-top: 30px;
+    display: contents;
+  
+}
 
 /* Ajustar diacordo com a tela (responsivo) */
 @media screen and (max-width: 760px) {
+    table{
+        top: 170px;      
+    }
 
     #form {
         padding: 35px;
@@ -146,6 +163,9 @@ body {
 }
 
 @media screen and (max-width: 530px) {
+    .content input{
+        width: 110px;
+    }
 
     #form {
         padding: 15px;
